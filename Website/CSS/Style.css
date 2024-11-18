@@ -1,0 +1,341 @@
+/* font */
+@font-face{
+      font-family: GeistMono-VariableFont_wgt;
+      src: url(../Font/GeistMono-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: GeistMono-VariableFont_wgt;
+}
+/* body*/
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+/* top bar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#social-icon{
+    float: right;
+}
+#toll-free{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+.fab{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+}
+
+.fa-instagram{
+    padding: 7px 9px;
+}
+#LogoBar img{
+    width: 100px;
+    margin: 24px 0px;
+    
+}
+/*navbar*/
+#navbar
+{
+   background-color: rgb(252, 19, 19);
+     
+}
+#navbar ul li{
+   
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;   
+}
+#navbar ul{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar ul li a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+/*footer*/
+#imp-link{
+     background-color:  #576574;
+     color: #fdfdfd;
+     overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+     text-decoration: underline;
+     text-underline-offset: 10px;
+     text-decoration-thickness: 2px;
+     font-weight: normal;
+}
+#footer_menu{
+     list-style-type: none;
+     padding-left: 0px;
+     
+}
+#footer_menu li{
+     padding-bottom: 10px;
+}
+#footer_menu li a{
+     text-decoration: none;
+     color: #fdfdfd;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: #222324;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 10px;
+}
+/* Poster*/
+#Poster{
+    background-image: url(../images/pexels-pixabay-460672.jpg);
+    background-repeat: no-repeat;
+    height: 500Px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fdfdfd;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+#whysection{
+    
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading{
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.heading{
+   width: 33.33%;
+   float: left;
+   text-align: center;
+   padding: 0px 50px 0px 50px;
+   box-sizing: border-box;
+}
+.heading h3{
+    color: red;
+}
+.heading p{
+    color: #576574;
+}
+/*Contact*/
+#contact-container{
+    background-color: rgb(235, 66, 66);
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom:30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+    
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#contact-btn{ 
+    background-color: white;
+    text-decoration: none;
+    color: #f33d3d; 
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/*Blog*/
+.heading a{
+    text-decoration: none;
+    color: #fc4343;
+    font-weight: bold;
+    font-family: GeistMono-VariableFont_wgt;
+}
+.heading img{
+    max-width: 100%;
+}
+
+/* subscribe */
+#subscribe-section{
+    background-color: #f33d3d;
+    overflow: auto;
+    color: rgb(252, 246, 246);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.section50{
+    width: 50%;
+    float:left;
+    
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #fc4343;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #fc4343;
+    border: 0px;
+}
+
+/* responsive ipad */
+@media only screen and (max-width:768px){
+    #navbar ul li {
+        padding-right: 20px;
+    }
+
+    .section70{
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+
+/* responsive mobile */
+@media only screen and (max-width: 500px){
+    #LogoBar img {
+        width: 100px;
+        margin: 24px 0px;
+        padding-left: 100px;
+    }
+       #Poster h1{
+         font-size: 28px;
+       }
+
+       .heading, .section70, .section30, .section50, .div33{
+           width: 100%;
+       }
+
+       .section70{
+          text-align: center;
+          padding-right: 0px;
+       }
+       .section30{
+          padding-top:20px;
+          padding-bottom: 20px;
+       }
+       .heading a{
+         display: inline-block;
+         margin-bottom: 30px;
+       }
+
+       .section50 h2{
+          text-align: center;
+          padding-right: 0px;
+       }
+       .section50 form{
+        display: flex;
+        padding-top: 0px;
+       }
+
+       .div33{
+        padding: 25px 20px;
+        text-align: center;
+       }
+       #footer-menu-container{
+         padding-left: 0px;
+       }
+       
+}
+/* mobile menu */
+#navbar ul #mobile-cross,#mobile-bar{
+    display: none;
+}
+
+@media only screen and (max-width:500px)
+{
+    #navbar {
+        background-color: rgb(252, 19, 19);
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid #ab9f9f;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-times-circle{
+         font-size: 25px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+    #mobile-bar{
+        background-color: #fc4343;
+        color: #fdfdfd;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mobile-cross,#mobile-bar{
+        display: block;
+    }
+    
+}
+ 
+
+
